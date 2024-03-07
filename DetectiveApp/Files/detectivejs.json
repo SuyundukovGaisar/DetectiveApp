@@ -1,0 +1,128 @@
+{
+  "Detectives": [
+    {
+      "Name": "Иванов Федор",
+      "Direction": "Уголовные дела",
+      "Occupation": [
+        "Ограбления",
+        "Убийства"
+      ],
+      "Age": 45,
+      "PlaceOfBirth": {
+        "Country": "Россия",
+        "City": "Севастополь"
+      },
+      "CasesSolved": 57
+    },
+    {
+      "Name": "Петров Александр",
+      "Direction": "Административные дела",
+      "Occupation": [
+        "Штрафы",
+        "Нарушения порядка"
+      ],
+      "Age": 60,
+      "PlaceOfBirth": {
+        "Country": "Россия",
+        "City": "Мурманск"
+      },
+      "CasesSolved": 89
+    },
+    {
+      "Name": "Сидоров Антон",
+      "Direction": "Кибербезопасность",
+      "Occupation": [
+        "Кража данных",
+        "Взломы"
+      ],
+      "Age": 32,
+      "PlaceOfBirth": {
+        "Country": "Россия",
+        "City": "Владивосток"
+      },
+      "CasesSolved": 24
+    }
+  ],
+  "Suspects": [
+    {
+      "Id": 1,
+      "Name": "Александр Александров",
+      "Age": 48,
+      "Address": {
+        "Country": "Россия",
+        "City": "Москва"
+      },
+      "Violation": {
+        "Accusation": "Убийство",
+        "Punishment": "Лишение свободы"
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "Константин Ефремов",
+      "Age": 33,
+      "Address": {
+        "Country": "Россия",
+        "City": "Норильск"
+      },
+      "Violation": {
+        "Accusation": "Парковка в неположенном месте",
+        "Punishment": "Штраф"
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "Илья Алексеев",
+      "Age": 19,
+      "Address": {
+        "Country": "Россия",
+        "City": "Санкт-Петербург"
+      },
+      "Violation": {
+        "Accusation": "Взлом государственных баз данных",
+        "Punishment": "Лишение свободы"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Id": 1,
+      "Title": "Убийство",
+      "Employee": {
+        "Name": "Федор",
+        "Surname": "Иванов"
+      },
+      "Offender": {
+        "Name": "Александр",
+        "Surname": "Александров"
+      },
+      "Punishment": "Лишение свободы"
+    },
+    {
+      "Id": 2,
+      "Title": "Парковка в неположенном месте",
+      "Employee": {
+        "Name": "Александр",
+        "Surname": "Петров"
+      },
+      "Offender": {
+        "Name": "Константин",
+        "Surname": "Ефремов"
+      },
+      "Punishment": "Штраф"
+    },
+    {
+      "Id": 3,
+      "Title": "Взлом государственных баз данных",
+      "Employee": {
+        "Name": "Антон",
+        "Surname": "Сидоров"
+      },
+      "Offender": {
+        "Name": "Илья",
+        "Surname": "Алексеев"
+      },
+      "Punishment": "Лишение свободы"
+    }
+  ]
+}

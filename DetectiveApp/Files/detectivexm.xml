@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<DetectivesBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Detectives>
+    <Detective>
+      <Name>Иванов Федор</Name>
+      <Direction>Уголовные дела</Direction>
+      <Occupation>
+        <string>Ограбления</string>
+        <string>Убийства</string>
+      </Occupation>
+      <Age>45</Age>
+      <PlaceOfBirth>
+        <Country>Россия</Country>
+        <City>Севастополь</City>
+      </PlaceOfBirth>
+      <CasesSolved>57</CasesSolved>
+    </Detective>
+    <Detective>
+      <Name>Петров Александр</Name>
+      <Direction>Административные дела</Direction>
+      <Occupation>
+        <string>Штрафы</string>
+        <string>Нарушения порядка</string>
+      </Occupation>
+      <Age>60</Age>
+      <PlaceOfBirth>
+        <Country>Россия</Country>
+        <City>Мурманск</City>
+      </PlaceOfBirth>
+      <CasesSolved>89</CasesSolved>
+    </Detective>
+    <Detective>
+      <Name>Сидоров Антон</Name>
+      <Direction>Кибербезопасность</Direction>
+      <Occupation>
+        <string>Кража данных</string>
+        <string>Взломы</string>
+      </Occupation>
+      <Age>32</Age>
+      <PlaceOfBirth>
+        <Country>Россия</Country>
+        <City>Владивосток</City>
+      </PlaceOfBirth>
+      <CasesSolved>24</CasesSolved>
+    </Detective>
+  </Detectives>
+  <Suspects>
+    <Suspect>
+      <Id>1</Id>
+      <Name>Александр Александров</Name>
+      <Age>48</Age>
+      <Address>
+        <Country>Россия</Country>
+        <City>Москва</City>
+      </Address>
+      <Violation>
+        <Accusation>Убийство</Accusation>
+        <Punishment>Лишение свободы</Punishment>
+      </Violation>
+    </Suspect>
+    <Suspect>
+      <Id>2</Id>
+      <Name>Константин Ефремов</Name>
+      <Age>33</Age>
+      <Address>
+        <Country>Россия</Country>
+        <City>Норильск</City>
+      </Address>
+      <Violation>
+        <Accusation>Парковка в неположенном месте</Accusation>
+        <Punishment>Штраф</Punishment>
+      </Violation>
+    </Suspect>
+    <Suspect>
+      <Id>3</Id>
+      <Name>Илья Алексеев</Name>
+      <Age>19</Age>
+      <Address>
+        <Country>Россия</Country>
+        <City>Санкт-Петербург</City>
+      </Address>
+      <Violation>
+        <Accusation>Взлом государственных баз данных</Accusation>
+        <Punishment>Лишение свободы</Punishment>
+      </Violation>
+    </Suspect>
+  </Suspects>
+  <Cases>
+    <Case>
+      <Id>1</Id>
+      <Title>Убийство</Title>
+      <Employee>
+        <Name>Федор</Name>
+        <Surname>Иванов</Surname>
+      </Employee>
+      <Offender>
+        <Name>Александр</Name>
+        <Surname>Александров</Surname>
+      </Offender>
+      <Punishment>Лишение свободы</Punishment>
+    </Case>
+    <Case>
+      <Id>2</Id>
+      <Title>Парковка в неположенном месте</Title>
+      <Employee>
+        <Name>Александр</Name>
+        <Surname>Петров</Surname>
+      </Employee>
+      <Offender>
+        <Name>Константин</Name>
+        <Surname>Ефремов</Surname>
+      </Offender>
+      <Punishment>Штраф</Punishment>
+    </Case>
+    <Case>
+      <Id>3</Id>
+      <Title>Взлом государственных баз данных</Title>
+      <Employee>
+        <Name>Антон</Name>
+        <Surname>Сидоров</Surname>
+      </Employee>
+      <Offender>
+        <Name>Илья</Name>
+        <Surname>Алексеев</Surname>
+      </Offender>
+      <Punishment>Лишение свободы</Punishment>
+    </Case>
+  </Cases>
+</DetectivesBase>
