@@ -149,7 +149,6 @@ namespace DetectiveApp
 
             DataTable dataTable3 = new DataTable();
 
-            // Add columns for detective information
             dataTable3.Columns.Add("Id", typeof(int));
             dataTable3.Columns.Add("Название", typeof(string));
             dataTable3.Columns.Add("Наказание", typeof(string));
@@ -198,8 +197,6 @@ namespace DetectiveApp
 
             InfoDetectives infoForm = new InfoDetectives(selectedObject);
             infoForm.Show();
-
-            infoForm._selectedObject = selectedObject;
         }
 
         private void treeDetective_AfterSelect(object sender, TreeViewEventArgs e)
